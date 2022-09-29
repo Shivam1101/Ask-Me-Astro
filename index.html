@@ -5,17 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="quries.css">
-    <title>Document</title>
+    <title>Ask Me Astro</title>
 </head>
 
 <body>
@@ -31,27 +24,28 @@
     </section>
 
     <section class="section-form">
-        <div class="form-box container">
+        <div class="container">
+        <div class="form-box ">
             <h3 class="heading-tertiary">Make Your Personalised Kundli Now <br> <span>
                     Only at ₹299</span></h3>
 
             <form action="" class="form">
                 <div>
-                    <label for="name">Full name *</label>
-                    <input type="text" id="name" placeholder="Full name" required>
+                    <label for="name">Full name<abbr>*</abbr></label>
+                    <input type="text" id="name" placeholder="Full name" required class="form-control">
                 </div>
 
                 <div class="radio">
-                    <legend>Gender *</legend>
+                    <label>Gender<abbr>*</abbr></label>
                     <div class="select-radio">
                         <div>
                             <input type="radio" id="male" value="male" name="gender">
-                            <label for="male">Male</label>
+                            <span for="male">Male</span>
                         </div>
 
                         <div>
                             <input type="radio" id="female" value="female" name="gender">
-                            <label for="female">Female</label>
+                            <span for="female">Female</span>
 
                         </div>
                     </div>
@@ -59,40 +53,40 @@
 
 
                 <div>
-                    <label for="day">Day *</label>
-                    <input type="text" id="day" placeholder="Day" required>
+                    <label for="day">Day<abbr>*</abbr></label>
+                    <input type="text" id="day" placeholder="Day" required class="form-control">
                 </div>
 
                 <div>
-                    <label for="month">Month *</label>
-                    <input type="text" id="month" placeholder="Month" required>
+                    <label for="month">Month<abbr>*</abbr></label>
+                    <input type="text" id="month" placeholder="Month" required class="form-control">
                 </div>
 
                 <div>
-                    <label for="year">Year *</label>
-                    <input type="text" id="year" placeholder="Year" required>
+                    <label for="year">Year<abbr>*</abbr></label>
+                    <input type="text" id="year" placeholder="Year" required class="form-control">
                 </div>
 
                 <div>
-                    <label for="hours">Hrs *</label>
-                    <input type="text" id="hours" placeholder="Hours" required>
+                    <label for="hours">Hrs<abbr>*</abbr></label>
+                    <input type="text" id="hours" placeholder="Hours" required class="form-control">
                 </div>
 
                 <div>
-                    <label for="minute">Min *</label>
-                    <input type="text" id="minute" placeholder="Minute" required>
+                    <label for="minute">Min<abbr>*</abbr></label>
+                    <input type="text" id="minute" placeholder="Minute" required class="form-control">
                 </div>
 
                 <div class="radio">
-                    <legend>AM / PM *</legend>
+                    <label>AM / PM<abbr>*</abbr></label>
                     <div class="select-radio">
                         <div>
-                            <input type="radio" id="am" value="am" name="am/pm">
+                            <input type="radio" id="am" value="am" name="am/pm" >
                             <label for="am">AM</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="pm" value="pm" name="am/pm">
+                            <input type="radio" id="pm" value="pm" name="am/pm" >
                             <label for="pm">PM</label>
 
                         </div>
@@ -100,18 +94,18 @@
                 </div>
 
                 <div>
-                    <label for="city">Birth City *</label>
-                    <input type="text" id="city" placeholder="Place of Birth" required>
+                    <label for="city">Birth City<abbr>*</abbr></label>
+                    <input type="text" id="city" placeholder="Place of Birth" required class="form-control">
                 </div>
 
                 <div>
-                    <label for="state">State *</label>
-                    <input type="text" id="State" placeholder="Enter State" required>
+                    <label for="state">State<abbr>*</abbr></label>
+                    <input type="text" id="State" placeholder="Enter State" required class="form-control">
                 </div>
 
                 <div>
-                    <label for="Language">Language *</label>
-                    <select id="Language" required>
+                    <label for="Language">Language<abbr>*</abbr></label>
+                    <select id="Language" required class="form-control">
                         <option value="Hindi">Hindi</option>
                         <option value="English">English</option>
                         <option value="Gujarati">Gujarati</option>
@@ -126,16 +120,16 @@
                 </div>
 
                 <div class="number">
-                    <label for="nunber">Phone no *</label>
-                    <div class="number-wraper">
-                        <span>+91</span>
-                        <input type="text" id="number" placeholder="Phone no" required>
+                    <label for="nunber">Phone no<abbr>*</abbr></label>
+                    <div class="number-wraper" >
+                        <span >+91</span>
+                        <input type="text" id="number" placeholder="Phone no" required class="form-control">
                     </div>
                 </div>
 
                 <div>
-                    <label for="email">Email Address *</label>
-                    <input type="text" id="email" placeholder="Email Address" required>
+                    <label for="email">Email Address<abbr>*</abbr></label>
+                    <input type="text" id="email" placeholder="Email Address" required class="form-control">
                 </div>
 
                 <button class="form-btn">Yes ! Make My Kundali Now(₹299/- Only!!)</button>
@@ -143,6 +137,7 @@
             </form>
 
         </div>
+    </div>
     </section>
 
     <section class="janam-kundli">
@@ -414,9 +409,9 @@
     </footer>
 
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 
 </html>
