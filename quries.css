@@ -140,5 +140,30 @@
     padding-right: 15px;
     padding-left:15px;
 }
+.dmy-row .col-4
+{
+    padding-right: 0px
+}
+.time-row .col-6
+{
+    padding-right: 0px
+}
+
+.birth-row .col-6
+{
+    padding-right: 0px
+}
+.lang-row .col-6
+{
+    padding-right: 0px
+}
+.email-row .col-12
+{
+    padding-right: 0px
+}
+.name-row .col-12
+{
+  padding-right: 0px
+}
 
 }
