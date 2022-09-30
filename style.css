@@ -1324,7 +1324,7 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);*/
 .country-code
 {
      font-size: 14px;
-    padding: 10px;
+    padding:11px;
     /*border: 1px solid #ced4da;*/
     border-right: 0;
     border-radius: 6px;
