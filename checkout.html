@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quries.css">
+    <title>Checkout | Ask Me Astro</title>
+</head>
+
+<body>
+    
+        <center> <img src="images/ask-me-astro-logo.png" width="220"></center>
+    <section class="section-form-checkout">
+        <div class="container">
+            <div class="form-box form-box-checkout">
+                <h3 class="heading-tertiary">Make Your Personalised Kundli Now </h3>
+                <form action="" class="form">
+                    <div class="row name-row">
+                        <div class="mb-10 col-lg-9 col-12">
+                            <label for="name">Full name<abbr>*</abbr></label>
+                            <input type="text" id="name" placeholder="Full name" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-3 radio-1 col-12">
+                            <label>Gender<abbr>*</abbr></label>
+                            <div class="row">
+                                <div class="col-lg-6 col-4">
+                                    <div class="radio">
+                                        <input id="radio-1" name="radio" type="radio" checked>
+                                        <label for="radio-1" class="radio-label">Male</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-5">
+                                    <div class="radio">
+                                        <input id="radio-2" name="radio" type="radio" >
+                                        <label for="radio-2" class="radio-label">Female</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row dmy-row">
+                        <div class="mb-10 col-lg-4 col-4">
+                            <label for="day">Day<abbr>*</abbr></label>
+                            <input type="text" id="day" placeholder="Day" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-4 col-4">
+                            <label for="month">Month<abbr>*</abbr></label>
+                            <input type="text" id="month" placeholder="Month" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-4 col-4">
+                            <label for="year">Year<abbr>*</abbr></label>
+                            <input type="text" id="year" placeholder="Year" required class="form-control">
+                        </div>
+                    </div>
+                    <div class="row time-row">
+                        <div class="mb-10 col-lg-4 col-6">
+                            <label for="hours">Hrs<abbr>*</abbr></label>
+                            <input type="text" id="hours" placeholder="Hours" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-4 col-6">
+                            <label for="minute">Min<abbr>*</abbr></label>
+                            <input type="text" id="minute" placeholder="Minute" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-4 am-pm col-12">
+                            <label>AM / PM<abbr>*</abbr></label>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="radio">
+                                        <input id="am" value="am" name="am/pm" type="radio" checked>
+                                        <label for="am" class="radio-label">AM</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="radio">
+                                        <input id="pm" value="pm" name="am/pm" type="radio">
+                                        <label for="pm" class="radio-label">PM</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row birth-row">
+                        <div class="mb-10 col-lg-6 col-6">
+                            <label for="city">Birth City<abbr>*</abbr></label>
+                            <input type="text" id="city" placeholder="Place of Birth" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-6 col-6">
+                            <label for="state">State<abbr>*</abbr></label>
+                            <input type="text" id="State" placeholder="Enter State" required class="form-control">
+                        </div>
+                    </div>
+                    <div class="row lang-row">
+                        <div class="mb-10 col-lg-6 col-6">
+                            <label for="Language">Language<abbr>*</abbr></label>
+                            <select id="Language" required class="form-control">
+                                <option value="Hindi">Hindi</option>
+                                <option value="English">English</option>
+                                <option value="Gujarati">Gujarati</option>
+                                <option value="Marathi">Marathi</option>
+                                <option value="Telugu">Telugu</option>
+                                <option value="Bengali">Bengali</option>
+                                <option value="Punjabi">Punjabi</option>
+                                <option value="Tamil">Tamil</option>
+                                <option value="Malayalam">Malayalam</option>
+                                <option value="Oriya">Oriya</option>
+                            </select>
+                        </div>
+                        <div class="number mb-10 col-lg-6 col-6">
+                            <label for="nunber">Phone no<abbr>*</abbr></label>
+                            <div class="number-wraper">
+                                 <span>+91</span>
+                                <input type="text" id="number" placeholder="Phone no" required class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row email-row">
+                        <div class="mb-10 col-lg-12 col-12">
+                            <label for="email">Email Address<abbr>*</abbr></label>
+                            <input type="text" id="email" placeholder="Email Address" required class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="checkout-text">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="#!">privacy policy.</a></p>
+                            <button class="form-btn "><i class="fi fi-sr-lock"></i> Place Order ₹299.00</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-box">
+            <p class="footer-description">About Us- askmeastro.com is the best website for Astrology predictions.
+                Connect to
+                Astrologer on call/ chat/
+                query and get answers to all your worries through Astrology Kundli Predictions from the best Astrologers
+                from India. Get best future predictions related to Marriage, love life, Career or anything you wish to
+                know.
+            </p>
+            <p class="address"> <strong> Address :</strong> Kurkur Eretail Pvt. Ltd, Plot No 38, 3rd floor, Namdevnagar,
+                Muktainagar – 425
+                306.</p>
+            <p class="contact"> <strong> Contact :</strong> support@askmeastro.com, WhatsApp: +91-9529195776</p>
+            <ul class="footer-links">
+                <li>
+                    <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                    <a href="#"> Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Disclaimer</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#"> Contact Us</a>
+                </li>
+            </ul>
+            <p class="copyright">© 2022 Kurkur Eretail Private Limited</p>
+        </div>
+    </footer>
+    <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+</body>
+
+</html>

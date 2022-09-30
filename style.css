@@ -280,10 +280,11 @@ padding: 50px;
   margin-right: 0;
 }
 .number span {
-    font-size: 1.6rem;
-    padding: 1.6rem .8rem;
-    border: 1px solid #ddd;
+        font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ced4da;
     border-right: 0;
+    border-radius: 6px;
 }
 
 .number .number-wraper {
@@ -730,4 +731,28 @@ padding: 50px;
     max-width: 28%;
     padding-left: 13px;
     padding-right: 0px !important;
+}
+
+.checkout-text 
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.checkout-text  a 
+{
+    color: #3B0002;
+    text-decoration: none;
+}
+.form-box-checkout
+{
+    padding:20px 40px 40px 40px;
+}
+
+
+.things ul li
+{
+    font-size: 16px;
+    line-height:20px;
+    margin-bottom: 10px;
 }
