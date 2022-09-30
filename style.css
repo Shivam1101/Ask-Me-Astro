@@ -809,6 +809,7 @@ padding: 50px;
 .app-inc
 {
     background: #3B0002;
+    background: url(https://askmeastro.com/wp-content/uploads/2022/05/lp-bg3.jpg) top center;
 
 }
 .app-inc-wrapper
@@ -836,4 +837,37 @@ padding: 50px;
 
 .app-inc-wrapper ul  {
     list-style-image: url(Images/star.png);
+}
+
+
+#about 
+{
+    margin-top: 40px;
+}
+
+#about img 
+{
+    border-radius: 6px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 3px rgba(0,0,0,0.23);
+    width:550px;
+}
+#about h2 
+{
+    margin-left: 50px;
+    font-size:28px;
+    width: 100%;
+    margin-top:10px;
+    color: #3B0002 ;
+
+}
+.abt-info 
+{
+    font-size: 16px;
+    line-height: 20px;
+    background: #fff;
+    padding:40px 50px 40px 40px;
+    margin-left: -90px;
+    margin-top: 30px;
+    width:85%;
+
 }
