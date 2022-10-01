@@ -44,7 +44,7 @@ body {
 
 
 .heading-primary {
-    font-size: 4.2rem;
+    font-size:40px;
     font-weight: 800;
     color: #3B0002;
     margin-bottom: 1.6rem;
@@ -1447,7 +1447,10 @@ h3 .del {
 h3.heading-tertiary del {
     color: #545454 !important;
 }
-
+.mt-5
+{
+    margin-top: 15px;
+}
 .mt-10 {
     margin-top: 40px;
 }
