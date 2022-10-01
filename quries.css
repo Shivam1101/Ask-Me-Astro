@@ -229,8 +229,16 @@
         border-left: 0
     }
 
-    .form-btn-top
-    {
+    .form-btn-top {
         margin-top: 20px;
+    }
+
+    .price h3 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .kundali-second-page .make-my-btn
+    {
+        padding:20px;
     }
 }

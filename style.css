@@ -109,8 +109,8 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);*/
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     background: #fff;
     width: 100%;
-        background-image: linear-gradient(180deg, #F8F6F8 80%, #FFFFFF 80%);
-        background-color: transparent;
+    background-image: linear-gradient(180deg, #F8F6F8 80%, #FFFFFF 80%);
+    background-color: transparent;
 }
 
 
@@ -1396,23 +1396,45 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);*/
     margin-top: 20px;
 }
 
-.checkout-footer
-{
+.checkout-footer {
     background: #fff;
- 
-}
-.checkout-footer .footer-links li a
-{
-       color: #566376;
+
 }
 
-.checkout-footer .copyright
-{
+.checkout-footer .footer-links li a {
+    color: #566376;
+}
+
+.checkout-footer .copyright {
     color: #869498
 }
 
-.checkout-form
-{
+.checkout-form {
     box-shadow: 0px 64px 80px -40px rgba(0, 0, 0, 0.12);
     border: 1px solid #DEE0E3;
+}
+
+.price h3 {
+    font-size: 34px;
+
+    font-weight: 800;
+}
+
+
+h3 .del {
+    color: #545454;
+}
+
+.price span {
+
+    color: green;
+}
+
+h3.heading-tertiary del {
+    color: #545454 !important;
+}
+
+.mt-10
+{
+    margin-top: 40px;
 }
