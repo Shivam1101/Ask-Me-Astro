@@ -75,7 +75,7 @@ body {
 *************** */
 
 .container {
-    max-width:75%;
+    max-width:62%;
     margin: 0 auto;
 
 }
@@ -311,6 +311,7 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);*/
     padding-bottom: 55%;
     height: 0;
     overflow: hidden;
+
 }
 
 .video-container-gap {
@@ -337,7 +338,7 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);*/
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.5;
-    background-color: #3B0002;
+    background-color: #61CE70;
     color: #fff;
     padding: 2rem 4rem;
     border-radius: 5px;
