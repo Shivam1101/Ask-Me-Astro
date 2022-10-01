@@ -1438,3 +1438,13 @@ h3.heading-tertiary del {
 {
     margin-top: 40px;
 }
+.points-second-page .points
+{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
+}
+
+.points-second-page .btn-description
+{
+    margin-bottom: 30px;
+}
