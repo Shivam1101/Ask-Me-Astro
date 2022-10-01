@@ -12,7 +12,7 @@
     }
 
     .heading-primary {
-        font-size:28px;
+        font-size: 28px;
     }
 
     .book {
@@ -20,22 +20,22 @@
     }
 
     .description {
-        font-size:19px;
+        font-size: 19px;
     }
 
     .heading-tertiary {
-        font-size:23px;
+        font-size: 23px;
     }
 
     .point-box {
-            display: flex;
-            gap:1.1rem;
-     }
+        display: flex;
+        gap: 1.1rem;
+    }
 
-     .point-headline
-     {
+    .point-headline {
         margin-bottom: 0;
-     }
+    }
+
     /* .form {
         grid-template-columns: 1fr;
     }
@@ -93,7 +93,7 @@
     }
 
     .heading-secondary {
-        font-size:25px;
+        font-size: 25px;
         padding: 0 1.6rem;
         margin: 4rem 0 1.6rem;
     }
@@ -125,7 +125,7 @@
         margin: 2.4rem 2.4rem 2.4rem 2.4rem;
     }
 
-    
+
 
     .order-book {
         width: 80%;
@@ -134,17 +134,18 @@
     .heading-bonus {
         font-size: 22px;
         padding: 0;
-        margin:10px 0 10px 0;
+        margin: 10px 0 10px 0;
 
     }
 
     .footer-links {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        display: inline-block;
+        text-align: center;
     }
 
     .footer-links li {
-        justify-self: center;
+        display: inline-block;
+        margin-right: 20px;
     }
 
     .radio-1 .col-lg-6 {
@@ -187,7 +188,7 @@
     }
 
     .am-col-1 {
-        max-width:26% !important;
+        max-width: 26% !important;
         padding-right: 0px !important;
     }
 
@@ -196,24 +197,40 @@
         padding-left: 4px !important;
 
     }
-    #about img
-    {
-        width:370px;
+
+    #about img {
+        width: 370px;
     }
-    .abt-info
-    {
+
+    .abt-info {
         margin-left: 0;
         width: 100%;
         margin-top: 0;
         padding: 15px;
     }
-    #about h2
-    {
+
+    #about h2 {
         text-align: center;
         margin-left: 0;
     }
-    .points
+
+    .points {
+        padding: 0px 20px 20px 20px;
+    }
+
+    .country-code {
+        padding-left: 3px;
+        padding-right: 2px;
+    }
+
+    .number-wraper input {
+        display: inline-block;
+        border: 1px solid #dee2e6;
+        border-left: 0
+    }
+
+    .form-btn-top
     {
-        padding:0px 20px 20px 20px;
+        margin-top: 20px;
     }
 }
