@@ -1320,29 +1320,30 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);*/
     margin-left: 50px;
     font-size: 26px;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 20px;
     color: #3B0002;
 
 }
 .abt-wrapper
 {
     background: #fff;
-    box-shadow: 0px 64px 80px -40px rgba(0, 0, 0, 0.12);
+    /*box-shadow: 0px 64px 80px -40px rgba(0, 0, 0, 0.12);*/
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     border: 1px solid #DEE0E3;
     margin-bottom: 20px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+   border-radius: 8px;
+
 }
 .abt-info {
     font-size: 14px;
     line-height: 20px;
-    background: #fff;
+    /*background: #fff;*/
     /*padding: 40px 50px 40px 40px;*/
     /*margin-left: -90px;*/
     margin-top:10px;
     /*width: 85%;*/
     text-align: justify;
-    padding: 0px 25px 25px 25px;
+    padding: 0px 35px 35px 35px;
 }
 
 .country-code {
