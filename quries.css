@@ -212,6 +212,7 @@
     #about h2 {
         text-align: center;
         margin-left: 0;
+        font-size: 22px;
     }
 
     .points {
@@ -237,8 +238,21 @@
         font-size: 30px;
         font-weight: 800;
     }
-    .kundali-second-page .make-my-btn
+
+    .kundali-second-page .make-my-btn {
+        padding: 20px;
+    }
+
+    .app-page .heading-primary {
+        font-size: 30px;
+    }
+    .app-video
     {
-        padding:20px;
+        width: 100%;
+        padding-bottom:50% !important;
+    }
+    .app-page .make-my-btn
+    {
+        padding: 20px 10px 20px 12px;
     }
 }

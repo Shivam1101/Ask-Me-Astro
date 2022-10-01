@@ -1465,6 +1465,13 @@ h3.heading-tertiary del {
 }
 
 .app-video 
+{   
+    margin: 0 auto;
+    width:90%;
+    padding-bottom: 48% !important;
+}
+
+.app-page .heading-premium
 {
-        padding-bottom: 48% !important;
+    font-size:30px;
 }
