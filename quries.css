@@ -133,7 +133,9 @@
 
     .heading-bonus {
         font-size: 22px;
-        padding: 0
+        padding: 0;
+        margin:10px 0 10px 0;
+
     }
 
     .footer-links {
@@ -194,5 +196,24 @@
         padding-left: 4px !important;
 
     }
-
+    #about img
+    {
+        width:370px;
+    }
+    .abt-info
+    {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 0;
+        padding: 15px;
+    }
+    #about h2
+    {
+        text-align: center;
+        margin-left: 0;
+    }
+    .points
+    {
+        padding:0px 20px 20px 20px;
+    }
 }
