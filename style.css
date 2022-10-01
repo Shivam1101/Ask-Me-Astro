@@ -338,7 +338,7 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);*/
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.5;
-    background-color: #61CE70;
+    background-color: #3B0002;
     color: #fff;
     padding: 2rem 4rem;
     border-radius: 5px;
@@ -497,12 +497,12 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);*/
 }
 
 .heading-secondary span {
-    color: #db8b1a;
+    color: #f54a4d;
 }
 
 
 .free-bonus {
-    border: 1px solid #db8b1a;
+    border: 1px solid #f54a4d;
     max-width: 65%;
     margin: 2.4rem 0 2.4rem;
 }
@@ -512,7 +512,7 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);*/
     text-align: center;
     font-size: 2.4rem;
     font-weight: 700;
-    background-color: #db8b1a;
+    background-color:#f54a4d;
     color: #fff;
     padding: 2.4rem 0;
 }
@@ -528,7 +528,7 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);*/
 }
 
 .heading-bonus span {
-    color: #db8b1a;
+    color: #f54a4d;
 }
 
 .bouns-list {
