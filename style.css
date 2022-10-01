@@ -85,6 +85,10 @@ body {
     max-width: 60% !important;
     margin: 0 auto
 }
+#about .container
+{
+    max-width: 75%
+}
 .section-form {
     margin-bottom: 4.8rem;
     /*background-color:hsla(0,100%,50%,1);
