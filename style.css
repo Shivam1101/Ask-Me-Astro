@@ -1463,3 +1463,8 @@ h3.heading-tertiary del {
 .points-second-page .btn-description {
     margin-bottom: 30px;
 }
+
+.app-video 
+{
+        padding-bottom: 48% !important;
+}
