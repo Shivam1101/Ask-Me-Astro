@@ -1581,3 +1581,9 @@ h3.heading-tertiary del {
     border-bottom: 1px dotted #3b00022b;
     color: #3B0002;
 }
+
+.main-from .form-box
+{
+    background: #fff;
+    background-image: none !important;
+}
