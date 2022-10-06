@@ -17,26 +17,26 @@
     <section class="section-form">
         <div class="container form-container">
             <div class="form-box checkout-form">
-                <h3 class="heading-tertiary">Make Your Personalised Kundli Now </h3>
+                <h3 class="heading-tertiary">अपनी व्यक्तिगत कुंडली अभी बनाएं<h3>
                 <form action="" class="form">
                     <div class="row name-row">
                         <div class="mb-10 col-lg-8 col-12">
-                            <label for="name">Full name<abbr>*</abbr></label>
-                            <input type="text" id="name" placeholder="Full name" required class="form-control">
+                            <label for="name">नाम<abbr>*</abbr></label>
+                            <input type="text" id="name" placeholder="नाम" required class="form-control">
                         </div>
                         <div class="mb-10 col-lg-4 radio-1 col-12">
-                            <label>Gender<abbr>*</abbr></label>
+                            <label>लिंग<abbr>*</abbr></label>
                             <div class="row">
                                 <div class="col-lg-5 col-4 gender-col">
                                     <div class="radio">
                                         <input id="radio-1" name="radio" type="radio">
-                                        <label for="radio-1" class="radio-label">Male</label>
+                                        <label for="radio-1" class="radio-label">पुरुष</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-7 col-5 gender-col-2">
                                     <div class="radio">
                                         <input id="radio-2" name="radio" type="radio">
-                                        <label for="radio-2" class="radio-label">Female</label>
+                                        <label for="radio-2" class="radio-label">महिला</label>
                                     </div>
                                 </div>
                             </div>
@@ -44,26 +44,26 @@
                     </div>
                     <div class="row dmy-row">
                         <div class="mb-10 col-lg-4 col-4">
-                            <label for="day">Day<abbr>*</abbr></label>
-                            <input type="text" id="day" placeholder="Day" required class="form-control">
+                            <label for="day">दिन<abbr>*</abbr></label>
+                            <input type="text" id="day" placeholder="दिन" required class="form-control">
                         </div>
                         <div class="mb-10 col-lg-4 col-4">
-                            <label for="month">Month<abbr>*</abbr></label>
-                            <input type="text" id="month" placeholder="Month" required class="form-control">
+                            <label for="month">माह<abbr>*</abbr></label>
+                            <input type="text" id="month" placeholder="माह" required class="form-control">
                         </div>
                         <div class="mb-10 col-lg-4 col-4">
-                            <label for="year">Year<abbr>*</abbr></label>
-                            <input type="text" id="year" placeholder="Year" required class="form-control">
+                            <label for="year">वर्ष<abbr>*</abbr></label>
+                            <input type="text" id="year" placeholder="वर्ष" required class="form-control">
                         </div>
                     </div>
                     <div class="row time-row">
                         <div class="mb-10 col-lg-4 col-6">
-                            <label for="hours">Hrs<abbr>*</abbr></label>
-                            <input type="text" id="hours" placeholder="Hours" required class="form-control">
+                            <label for="hours">घंटा<abbr>*</abbr></label>
+                            <input type="text" id="hours" placeholder="घंटा" required class="form-control">
                         </div>
                         <div class="mb-10 col-lg-4 col-6">
-                            <label for="minute">Min<abbr>*</abbr></label>
-                            <input type="text" id="minute" placeholder="Minute" required class="form-control">
+                            <label for="minute">मिनट<abbr>*</abbr></label>
+                            <input type="text" id="minute" placeholder="मिनट" required class="form-control">
                         </div>
                         <div class="mb-10 col-lg-4 am-pm col-12">
                             <label>AM / PM<abbr>*</abbr></label>
@@ -83,32 +83,52 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row birth-row">
                         <div class="mb-10 col-lg-6 col-6">
-                            <label for="city">Birth City<abbr>*</abbr></label>
-                            <input type="text" id="city" placeholder="Birth City" required class="form-control">
+                            <label for="city">बर्थ शहर <abbr>*</abbr></label>
+                            <input type="text" id="city" placeholder="बर्थ शहर" required class="form-control">
                         </div>
                         <div class="mb-10 col-lg-6 col-6">
-                            <label for="state">State<abbr>*</abbr></label>
-                            <input type="text" id="State" placeholder="Enter State" required class="form-control">
+                            <label for="state">राज्य<abbr>*</abbr></label>
+                            <input type="text" id="State" placeholder="राज्य" required class="form-control">
                         </div>
                     </div>
                     <div class="row lang-row">
+                        <div class="mb-10 col-lg-6 col-6">
+                            <label for="Language">भाषा <abbr>*</abbr></label>
+                            <select id="Language" required class="form-control">
+                                <option  disabled="" selected="">Select </option>
+                                <option value="Hindi" >Hindi</option>
+                                <option value="English">English</option>
+                                <option value="Gujarati">Gujarati</option>
+                                <option value="Marathi">Marathi</option>
+                                <option value="Telugu">Telugu</option>
+                                <option value="Bengali">Bengali</option>
+                                <option value="Punjabi">Punjabi</option>
+                                <option value="Tamil">Tamil</option>
+                                <option value="Malayalam">Malayalam</option>
+                                <option value="Oriya">Oriya</option>
+                            </select>
+                        </div>
                         <div class="number mb-10 col-lg-6 col-12">
                             <label for="nunber">WhatsApp No<abbr>*</abbr></label>
                             <div class="number-wraper">
                                 <span class="country-code">+91</span>
-                                <input type="text" id="number" placeholder="Number" required class="form-control">
+                                <input type="text" id="number" placeholder="नंबर" required class="form-control">
                             </div>
                         </div>
-                        <div class="mb-10 col-lg-6 col-12">
-                            <label for="email">Email Address<abbr>*</abbr></label>
-                            <input type="text" id="email" placeholder="Email Address" required class="form-control">
+                       
+                    </div>
+
+                    <div class="row email-row">
+                        <div class="mb-10 col-lg-12 col-12">
+                            <label for="email">ईमेल<abbr>*</abbr></label>
+                            <input type="text" id="email" placeholder="ईमेल" required class="form-control">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-12  mt-4">
-                           
                             <button class="form-btn "><i class="fi fi-sr-lock"></i> Place Order ₹299.00</button>
                         </div>
                     </div>
