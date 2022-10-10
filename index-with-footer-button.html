@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quries.css">
+    <title>Ask Me Astro</title>
+</head>
+
+<body>
+    <section class="section-hero">
+        <div class="hero-box">
+            <div>
+                <h1 class="heading-primary">KNOW YOUR <span>KUNDLI,</span> KNOW YOUR<span> LIFE</span> </h1>
+                <p class="description">Find out how to attract positivity and luck!</p>
+            </div>
+            <img src="https://askmeastro.com/wp-content/uploads/elementor/thumbs/new-book12-ppokc2s4vy1k5qm0weuhznpgnncawqbyd41rqfjmkg.webp" class="book" alt="kundli book">
+        </div>
+    </section>
+    <section class="section-form main-from">
+        <div class="container form-container">
+            <div class="form-box ">
+                <h3 class="heading-tertiary">Make Your Personalised Kundli Now<br>
+                    <del>₹1100</del> <span>₹299</span></h3>
+                <form action="" class="form">
+                    <div class="row name-row">
+                        <div class="mb-10 col-lg-8 col-12">
+                            <label for="name">Full name<abbr>*</abbr></label>
+                            <input type="text" id="name" placeholder="Full name" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-4 radio-1 col-12">
+                            <label>Gender<abbr>*</abbr></label>
+                            <div class="row">
+                                <div class="col-lg-5 col-4 gender-col">
+                                    <div class="radio">
+                                        <input id="radio-1" name="radio" type="radio">
+                                        <label for="radio-1" class="radio-label">Male</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-5 gender-col-2">
+                                    <div class="radio">
+                                        <input id="radio-2" name="radio" type="radio">
+                                        <label for="radio-2" class="radio-label">Female</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row dmy-row">
+                        <div class="mb-10 col-lg-4 col-4">
+                            <label for="day">Day<abbr>*</abbr></label>
+                            <input type="text" id="day" placeholder="Day" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-4 col-4">
+                            <label for="month">Month<abbr>*</abbr></label>
+                            <input type="text" id="month" placeholder="Month" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-4 col-4">
+                            <label for="year">Year<abbr>*</abbr></label>
+                            <input type="text" id="year" placeholder="Year" required class="form-control">
+                        </div>
+                    </div>
+                    <div class="row time-row">
+                        <div class="mb-10 col-lg-4 col-6">
+                            <label for="hours">Hrs<abbr>*</abbr></label>
+                            <input type="text" id="hours" placeholder="Hours" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-4 col-6">
+                            <label for="minute">Min<abbr>*</abbr></label>
+                            <input type="text" id="minute" placeholder="Minute" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-4 am-pm col-12">
+                            <label>AM / PM<abbr>*</abbr></label>
+                            <div class="row">
+                                <div class="col-lg-4 am-col-1">
+                                    <div class="radio">
+                                        <input id="am" value="am" name="am/pm" type="radio">
+                                        <label for="am" class="radio-label">AM</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pm-col-2">
+                                    <div class="radio">
+                                        <input id="pm" value="pm" name="am/pm" type="radio">
+                                        <label for="pm" class="radio-label">PM</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row birth-row">
+                        <div class="mb-10 col-lg-6 col-6">
+                            <label for="city">Birth City<abbr>*</abbr></label>
+                            <input type="text" id="city" placeholder="Birth City" required class="form-control">
+                        </div>
+                        <div class="mb-10 col-lg-6 col-6">
+                            <label for="state">State<abbr>*</abbr></label>
+                            <input type="text" id="State" placeholder="Enter State" required class="form-control">
+                        </div>
+                    </div>
+                    <div class="row lang-row">
+                        <div class="mb-10 col-lg-6 col-6">
+                            <label for="Language">Language<abbr>*</abbr></label>
+                            <select id="Language" required class="form-control">
+                                <option disabled="" selected="">Select </option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="English">English</option>
+                                <option value="Gujarati">Gujarati</option>
+                                <option value="Marathi">Marathi</option>
+                                <option value="Telugu">Telugu</option>
+                                <option value="Bengali">Bengali</option>
+                                <option value="Punjabi">Punjabi</option>
+                                <option value="Tamil">Tamil</option>
+                                <option value="Malayalam">Malayalam</option>
+                                <option value="Oriya">Oriya</option>
+                            </select>
+                        </div>
+                        <div class="number mb-10 col-lg-6 col-6">
+                            <label for="nunber">WhatsApp No<abbr>*</abbr></label>
+                            <div class="number-wraper">
+                                <span class="country-code">+91</span>
+                                <input type="text" id="number" placeholder="Number" required class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row email-row">
+                        <div class="mb-10 col-lg-12 col-12">
+                            <label for="email">Email Address<abbr>*</abbr></label>
+                            <input type="text" id="email" placeholder="Email Address" required class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-btn-top">
+                        <div class="col-lg-12">
+                            <button class="form-btn ">Yes ! Make My Kundali Now(₹299/- Only!!)</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="janam-kundli">
+        <div class="container">
+            <div class="video-container-gap">
+                <div class="video-container gap">
+                    <iframe src="https://www.youtube.com/embed/bMQ7skvFh1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="600"></iframe>
+                </div>
+            </div>
+            <div class="all-center">
+                <a href="#" class="make-my-btn ">Yes ! Make My Kundali Now <br> (₹299/- Only!!)</a>
+                <p class="btn-description">* You will get Kundali on email within 48 Hours.</p>
+            </div>
+        </div>
+    </section>
+    <section class="premium ">
+        <div class="all-center">
+            <p class="heading-premium">Your Premium Personalized Kundali Will Include :</p>
+            <div class="points">
+                <div class="point-box">
+                    <i class="fi fi-sr-checkbox"></i>
+                    <div class="point">
+                        <p class="point-headline">Future Predictions</p>
+                        <p class="point-description">Get accurate predictions about your future based on your stars.</p>
+                    </div>
+                </div>
+                <div class="point-box">
+                    <i class="fi fi-sr-checkbox"></i>
+                    <div class="point">
+                        <p class="point-headline">Relationship Problems</p>
+                        <p class="point-description">Know when can you face marriage issues, family issues, and
+                            friendship issues, and get their solutions.</p>
+                    </div>
+                </div>
+                <div class="point-box">
+                    <i class="fi fi-sr-checkbox"></i>
+                    <div class="point">
+                        <p class="point-headline">Business/Job Problems​</p>
+                        <p class="point-description">Understand the horoscopic reason behind business losses and job
+                            problems, and how to overcome them.</p>
+                    </div>
+                </div>
+                <div class="point-box">
+                    <i class="fi fi-sr-checkbox"></i>
+                    <div class="point">
+                        <p class="point-headline">Education and Career Path</p>
+                        <p class="point-description">Find out which career is most suitable for you and how can you
+                            tackle education-related problems.</p>
+                    </div>
+                </div>
+                <div class="point-box">
+                    <i class="fi fi-sr-checkbox"></i>
+                    <div class="point">
+                        <p class="point-headline">Direction of Life</p>
+                        <p class="point-description">Get clarity on the direction of your life and destiny and make the
+                            best of it.</p>
+                    </div>
+                </div>
+                <div class="point-box">
+                    <i class="fi fi-sr-checkbox"></i>
+                    <div class="point">
+                        <p class="point-headline">Tackle Negativity</p>
+                        <p class="point-description">Get a detailed analysis of the karmas that can help you satisfy your stars and remove negativity from your life.</p>
+                    </div>
+                </div>
+                <div class="point-box">
+                    <i class="fi fi-sr-checkbox"></i>
+                    <div class="point">
+                        <p class="point-headline">Invite Luck</p>
+                        <p class="point-description">Know your lucky gemstone, day, color, number, and a lot more to attract luck in your life.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list-box">
+                <p class="heading-list">A complete astrological guide to your life!</p>
+                <div class="list">
+                    <ul>
+                        <li>180+ Pages in Horoscope</li>
+                        <li>20 Years predictions</li>
+                        <li>Kundli Darpan</li>
+                        <li>Karak Awastha</li>
+                        <li>Sudarshan Chakra</li>
+                        <li>Sarvatobhadra Chakra</li>
+                        <li>Planet readings</li>
+                        <li>Dasha readings</li>
+                        <li>K P System</li>
+                        <li>ShodashVarga charts</li>
+                    </ul>
+                    <ul>
+                        <li>Shadbala and bhavabala</li>
+                        <li>Shannadi Chakra</li>
+                        <li>House predictions</li>
+                        <li>Yoga predictions</li>
+                        <li>Nakshatra Reading</li>
+                        <li>Gem Therapy</li>
+                        <li>Saturn’s period</li>
+                        <li>Lucky Substitute Stones</li>
+                        <li>Gem Selection</li>
+                        <li>Rudhaksha prediction</li>
+                        <li>and more items...</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="all-center">
+                <a href="#" class="make-my-btn">Yes ! Make My Kundali Now <br> (₹299/- Only!!)</a>
+                <p class="btn-description">* You will get Kundali on email within 48 Hours.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="heading-secondary">Here’s What Are Our Clients Have To <br>
+            Say About Our Services !</h2>
+        <div class="container">
+            <div class="video-container-gap">
+                <div class="video-container gap">
+                    <iframe src="https://www.youtube.com/embed/OpChAvmpmt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="video-container-gap">
+                <div class="video-container gap">
+                    <iframe src="https://www.youtube.com/embed/cLPq9aZUSis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="review-image-box">
+                <img src="images/IMG_9492-768x1491.webp" alt="review image" class="review-image">
+                <img src="images/IMG_9493-768x1491.webp" alt="review image" class="review-image">
+            </div>
+        </div>
+        <div class="all-center">
+            <a href="#" class="make-my-btn ">Yes ! Make My Kundali Now <br> (₹299/- Only!!)</a>
+            <p class="btn-description">* You will get Kundali on email within 48 Hours.</p>
+        </div>
+    </section>
+    <section class="section-order">
+        <div class="order-box all-center">
+            <h2 class="heading-secondary">ORDER NOW <span> To Get FREE Bonuses WORTH <del> ₹1,999! </del></span>
+                LIMITED PERIOD OFFER ONLY!!!</h2>
+            <div class="free-bonus all-center">
+                <p>FREE BONUS #1</p>
+                <p class="heading-bonus">“Varshfal – Guidance for next year” <br>
+                    <span> Total Value: <del> ₹999</del></span>
+                </p>
+                <img src="images/Varshaphal-Mar-scaled-1-pu0hmmt28xij9ugary5opygvdlggjusomm6ovi4r08.webp" class="order-book" alt="varshfal book">
+                <ul class="bouns-list">
+                    <li>
+                        <i class="fi fi-sr-checkbox"></i>
+                        <span>Detailed analysis of the next year of your life</span>
+                    </li>
+                    <li>
+                        <i class="fi fi-sr-checkbox"></i>
+                        <span>Know the best time to take monetary decisions</span>
+                    </li>
+                    <li>
+                        <i class="fi fi-sr-checkbox"></i>
+                        <span>Please your most powerful planets to enhance their positive effects</span>
+                    </li>
+                    <li>
+                        <i class="fi fi-sr-checkbox"></i>
+                        <span>Career growth opportunities and chances</span>
+                    </li>
+                    <li>
+                        <i class="fi fi-sr-checkbox"></i>
+                        <span>Warnings for any negative events that might arise in the coming year</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="free-bonus all-center">
+                <p>FREE BONUS #2</p>
+                <p class="heading-bonus">“Numerology Report – Your life in numbers” <br>
+                    <span> Total Value: <del> ₹999</del></span>
+                </p>
+                <img src="images/Nemerology2-pu0hn1uhaa34flugc4nptuo8vrebz0ge0omgjxig8o.webp" class="order-book" alt="varshfal book">
+                <ul class="bouns-list">
+                    <li>
+                        <i class="fi fi-sr-checkbox"></i>
+                        <span>Know your lucky and unlucky numbers</span>
+                    </li>
+                    <li>
+                        <i class="fi fi-sr-checkbox"></i>
+                        <span>Dates to avoid for important events and tasks</span>
+                    </li>
+                    <li>
+                        <i class="fi fi-sr-checkbox"></i>
+                        <span>Color that is most beneficial to you as per your destiny number</span>
+                    </li>
+                    <li>
+                        <i class="fi fi-sr-checkbox"></i>
+                        <span>Attract good luck using numbers in your daily life</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="all-center">
+                <a href="#" class="make-my-btn ">Yes ! Make My Kundali Now <br> (₹299/- Only!!)</a>
+                <p class="btn-description">* You will get Kundali on email within 48 Hours.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-box">
+            <p class="footer-description">About Us- askmeastro.com is the best website for Astrology predictions.
+                Connect to
+                Astrologer on call/ chat/
+                query and get answers to all your worries through Astrology Kundli Predictions from the best Astrologers
+                from India. Get best future predictions related to Marriage, love life, Career or anything you wish to
+                know.
+            </p>
+            <p class="address"> <strong> Address :</strong> Kurkur Eretail Pvt. Ltd, Plot No 38, 3rd floor, Namdevnagar,
+                Muktainagar – 425
+                306.</p>
+            <p class="contact"> <strong> Contact :</strong> support@askmeastro.com, WhatsApp: +91-9529195776</p>
+            <ul class="footer-links">
+                <li>
+                    <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                    <a href="#"> Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Disclaimer</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#"> Contact Us</a>
+                </li>
+            </ul>
+            <p class="copyright">© 2022 Kurkur Eretail Private Limited</p>
+        </div>
+    </footer>
+    <div class="persistent-cta-mobile">
+        <div class="cta-content-left">
+            <div class="">
+                <div class="cta-pricing">₹499 <span class="cta-pricing-strikethrough"><del>₹1999</del></span></div>
+            </div>
+            <div class="cta-start-date">Offer ends early</div>
+        </div><a href="#!" class="per-hero-cta text-size-medium cta-p w-inline-block">
+            <div>BUY&nbsp;NOW<span class="you-cta-text-strike"></span></div>
+        </a>
+    </div>
+</body>
+<script>
+document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+</script>
+
+</html>

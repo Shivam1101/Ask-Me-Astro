@@ -1594,7 +1594,7 @@ h3.heading-tertiary del {
     margin: 0 auto;
     font-size: 16px;
     text-align: center;
-    border-radius:12px;
+    border-radius: 12px;
 }
 
 .home-page-btn a {
@@ -1602,15 +1602,99 @@ h3.heading-tertiary del {
     text-decoration: none;
 }
 
-.thank-you-hindi 
-{
-    line-height:25px;
+.thank-you-hindi {
+    line-height: 25px;
 }
 
-.thank-app p
-{
+.thank-app p {
     margin-top: 50px;
-    font-size:14px;
+    font-size: 14px;
     text-align: center;
     color: #111111
+}
+
+
+.persistent-cta-mobile {
+    z-index: 899;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 15px 30px;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #3B0002;
+
+}
+
+.cta-content-left {
+    overflow: visible;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.per-hero-cta {
+    display: block;
+    padding: 1.5rem 2.25rem;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 16px;
+    background-image: linear-gradient(136deg, #61ce70, #61ce70);
+    box-shadow: 0 30px 30px -20px rgb(23 159 137 / 30%);
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+.cta-pricing {
+    margin-bottom: 7px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.cta-start-date {
+    color: #fff;
+}
+
+.cta-pricing-strikethrough {
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: line-through;
 }
