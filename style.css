@@ -1616,15 +1616,14 @@ h3.heading-tertiary del {
 
 .persistent-cta-mobile {
     z-index: 899;
-
-    -webkit-box-pack: justify;
+   /* -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: center;*/
     position: fixed;
     left: 0;
     top: auto;
@@ -1636,15 +1635,6 @@ h3.heading-tertiary del {
     display: -ms-flexbox;
     display: flex;
     padding: 15px 30px;
-
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
     background-color: #3B0002;
 
 }
@@ -1677,6 +1667,7 @@ h3.heading-tertiary del {
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+    margin-left: 20px;
 }
 
 
@@ -1697,4 +1688,12 @@ h3.heading-tertiary del {
     font-size: 17px;
     line-height: 20px;
     text-decoration: line-through;
+}
+
+#kiwi-big-iframe-wrapper
+{
+    
+    left: 80% !important;
+    right: 0 !important;
+    bottom: 0 !important;
 }
