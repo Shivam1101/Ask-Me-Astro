@@ -246,17 +246,30 @@
     .app-page .heading-primary {
         font-size: 30px;
     }
-    .app-video
-    {
+
+    .app-video {
         width: 100%;
-        padding-bottom:50% !important;
+        padding-bottom: 50% !important;
     }
-    .app-page .make-my-btn
-    {
+
+    .app-page .make-my-btn {
         padding: 20px 10px 20px 12px;
     }
+
     .thank-you-box .order-details-table1 td {
         display: flex;
         column-gap: 8px;
+    }
+
+
+    .persistent-cta-mobile {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    #kiwi-big-iframe-wrapper {
+        display: inline-block;
     }
 }

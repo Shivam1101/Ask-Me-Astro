@@ -1630,21 +1630,20 @@ h3.heading-tertiary del {
     right: 0;
     bottom: 0;
     z-index: 1000;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 15px 30px;
+
+    padding:15px 0px 15px 15px;
     background-color: #3B0002;
+    display: none;
 
 }
 
 .cta-content-left {
-    overflow: visible;
+   /* overflow: visible;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
-    align-items: flex-start;
+    align-items: flex-start;*/
+    margin-left:80px;
 }
 
 .per-hero-cta {
@@ -1667,7 +1666,7 @@ h3.heading-tertiary del {
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
-    margin-left: 20px;
+    margin-left:20px;
 }
 
 
@@ -1693,7 +1692,14 @@ h3.heading-tertiary del {
 #kiwi-big-iframe-wrapper
 {
     
-    left: 80% !important;
-    right: 0 !important;
+    /*left: 80% !important;*/
+    /*right: 0 !important;*/
     bottom: 0 !important;
+    display: none;
+}
+
+
+#hindi-cont .free-bonus
+{
+    width: 61%;
 }
