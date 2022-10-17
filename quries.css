@@ -272,4 +272,8 @@
     #kiwi-big-iframe-wrapper {
         display: inline-block;
     }
+
+    #hindi-cont .free-bonus {
+        width: 65%;
+    }
 }
