@@ -277,3 +277,16 @@
         width: 92%;
     }
 }
+
+@media(min-width:320px) and (max-width: 360px) {
+
+    .gender-col {
+        max-width: 34% !important;
+    }
+    .am-col-1 {
+    max-width:32% !important;
+    }
+     .pm-col-2 {
+    max-width:32% !important;
+    }
+}
