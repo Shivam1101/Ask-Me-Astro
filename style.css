@@ -1703,3 +1703,8 @@ h3.heading-tertiary del {
 {
     width: 61%;
 }
+
+.mob-del
+{
+    display: none;
+}

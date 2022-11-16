@@ -296,4 +296,8 @@
     {
         width: 50%;
     }
+    .mob-del
+{
+    display: block;
+}
 }
