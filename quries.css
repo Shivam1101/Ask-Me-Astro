@@ -240,8 +240,9 @@
     }
 
     .kundali-second-page .make-my-btn {
-        padding: 20px;
-    }
+            padding: 14px;
+    font-size: 15px;
+     }
 
     .app-page .heading-primary {
         font-size: 30px;
@@ -290,7 +291,7 @@
     max-width:32% !important;
     }
      .pm-col-2 {
-    max-width:32% !important;
+    max-width:34% !important;
     }
     .home-page-btn
     {
@@ -300,4 +301,16 @@
 {
     display: block;
 }
+.radio
+{
+        padding: 10px 10px 7px 6px;
+}
+}
+
+@media(max-width:1280px) {
+.form-container {
+    max-width: 80% !important;
+    margin: 0 auto
+}
+
 }
